@@ -25,7 +25,7 @@ const Header = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "text-blue-500" : "default"
+                isActive ? "active" : "default"
               }
             >
               Home
@@ -35,7 +35,7 @@ const Header = () => {
             <NavLink
               to="/bookes"
               className={({ isActive }) =>
-                isActive ? "text-blue-500" : "default"
+                isActive ? "active" : "default"
               }
             >
               Books
@@ -46,7 +46,7 @@ const Header = () => {
               to="/about"
               
               className={({ isActive }) =>
-                isActive ? "text-blue-500" : "default"
+                isActive ? "active" : "default"
               }
             >
               About us
